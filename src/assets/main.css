@@ -1,0 +1,52 @@
+:root {
+  --s: 4px;
+  --m: 8px;
+  --l: 12px;
+  --xl: 24px;
+}
+
+@font-face {
+  font-family: "Helvetica Rounded";
+  src: url("./Helvetica-Rounded-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Helvetica Rounded Condensed";
+  src: url("./Helvetica-Rounded-Bold-Condensed-Oblique.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Rounded";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Helvetica Rounded Condensed";
+  font-style: italic;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  transform: translateX(-10px);
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+.chip {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 5px 20px;
+  padding-bottom: 0px;
+}
