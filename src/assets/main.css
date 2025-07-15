@@ -24,6 +24,11 @@
   font-family: "Helvetica Rounded";
   text-transform: uppercase;
   text-align: center;
+  pointer-events: none;
+}
+
+canvas {
+  pointer-events: all;
 }
 
 h1,
@@ -49,4 +54,8 @@ h2 {
   width: fit-content;
   padding: 5px 20px;
   padding-bottom: 0px;
+}
+
+.biglietti {
+  padding-top: 10px;
 }

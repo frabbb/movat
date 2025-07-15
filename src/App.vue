@@ -15,6 +15,8 @@ import Canvas from "./components/Canvas.vue";
           <h3>Viale Facsal, Piacenza</h3>
         </div>
       </div>
+
+      <h3 class="biglietti">biglietti fuori il 4 Agosto</h3>
     </div>
     <div class="container">
       <Canvas />
